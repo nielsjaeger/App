@@ -1,0 +1,94 @@
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header h1 {
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  z-index: -1;
+}
+.column {
+  display: inline-block;
+  width: 33.33333333333333%;
+  float: left;
+}
+/*introduction*/
+.introduction p {
+  display: inline;
+}
+/*main-text*/
+.main-text {
+  clear: both;
+  border-left: 4px solid orange;
+}
+#main-text_left {
+  margin-left: 20px;
+}
+/*image*/
+.image {
+  display: inline-block;
+  float: left;
+  padding-bottom: 20px;
+}
+.image img {
+  width: 90%;
+}
+/*skills*/
+.skills {
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+#skill_list {
+  margin-left: 50px;
+}
+/*typography*/
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+p,
+li {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+.introduction p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 25;
+  -webkit-margin-before: 0;
+}
+.skills h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-text p {
+  font-family: 'Lato', sans-serif;
+}
+/*nav bar*/
+.nav ul li {
+  display: inline-block;
+}
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+.nav ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}

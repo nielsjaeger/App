@@ -1,0 +1,182 @@
+.jumbotron {
+  background-image: url("../img/landscape.jpg");
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: white;
+}
+/**** About page ****/
+body {
+  background-color: #fffeea;
+  color: #34495e;
+  position: relative;
+}
+.container_about {
+  width: 80%;
+  margin: 0 auto;
+}
+.header h1 {
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  z-index: -1;
+}
+.column {
+  display: inline-block;
+  width: 33.33333333333333%;
+  float: left;
+}
+/*introduction*/
+#introduction_about p {
+  display: inline;
+}
+/*main-text*/
+#main-text {
+  clear: both;
+  border-left: 4px solid orange;
+}
+/*image*/
+#image_about {
+  display: inline-block;
+  float: left;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+#image_about img {
+  width: 90%;
+}
+/*skills*/
+#skills_about {
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+#skill_list {
+  margin-left: 50px;
+}
+/*typography*/
+h1,
+h2,
+h3 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+p,
+li {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+#introduction_about2 p {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  -webkit-margin-before: 0;
+}
+#skills_about h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+#main-text p {
+  font-family: 'Lato', sans-serif;
+}
+/**** Contact page ****/
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+.header h1 {
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  z-index: -1;
+}
+.container_contact {
+  width: 50%;
+  margin: 0 auto;
+}
+/*contact*/
+.container_contact {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.contactinformation {
+  z-index: 1;
+}
+#contact{
+    background-image: url("../img/hongkong.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+    padding:100px;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    opacity: 0.75;
+}
+/*typography*/
+.header h1 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+.contact li {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+/*nav bar*/
+.navbar ul li {
+  display: inline-block;
+}
+.navbar {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+.navbar ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+.navbar a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+.navbar {
+  z-index: 1;
+}
+.projectName {
+    text-transform: uppercase;
+}
+.projectName a {
+    color: white;
+}
+/**** FAQ page ****/
+.accordion {
+  width: 80%;
+  margin: 0 auto;
+}
+.panel-group .panel {
+  border-color: #ffb3b3;
+  background-color: #ffffb3;
+}
+.panel-title a {
+  display: block;
+  padding: 5px;
+  position: relative;
+}
+.panel-default>.panel-heading {
+  background-color: #ffc6b3;
+}
+.panel-group {
+  padding-bottom: 100px;
+}
+/* carousel */
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}

@@ -1,0 +1,51 @@
+body {
+  background-color: #fffeea;
+  color: #34495e;
+}
+.header h1 {
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  z-index: -1;
+}
+.container {
+  width: 30%;
+  margin: 0 auto;
+}
+/*contact*/
+.contact {
+  background-color: #FF7F50;
+  color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*typography*/
+.header h1 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+.contact li {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+/*nav bar*/
+.nav ul li {
+  display: inline-block;
+}
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+}
+.nav ul li a {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}

@@ -1,0 +1,116 @@
+/*.jumbotron  {
+background-image: url("../img/background.jpg");
+background-size: auto;
+}
+
+.jumbotron p {
+color: white;
+}
+/**** Contact page ****/
+
+#contact {
+  text-align: center;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  font-size: 1.5em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 20.4px;
+  text-transform: inherit;
+  color: #ff0;
+  text-decoration: none;
+  -webkit-transition: color 600ms;
+}
+/* Contact page */
+#contact {
+  background-image: url("../img/background.jpeg");
+  /*Add a background image*/
+  background-attachment: fixed;
+  /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: auto;
+  /*Have the background cover the entire div section*/
+  color: black;
+  /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+  height: 600px;
+  position: relative;
+  width: 100%
+}
+#contact {
+  background-image: url("../img/background.jpeg");
+  /*Add a background image*/
+  background-attachment: fixed;
+  /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+  /*Have the background cover the entire div section*/
+  color: black;
+  /*Change the color of the text on top so it is readable and adjust the padding as needed.*/
+  height: 600px;
+}
+/*@media (max-width: 960px) {
+  .contact {
+    width: auto;
+  }
+}*/
+body {
+  background-color: #fffeea;
+  color: #34495e;
+  padding-top: 2.5em;
+  position: absolute;
+}
+
+/* About page*/
+#about {
+  position: relative;
+  width: 100%
+}
+
+/*faq*/
+#faq {
+  width: 100%
+}
+.header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/*Nav Bar*/
+/*.navbar ul li {
+display: inline-block;
+text-transform: uppercase;
+letter-spacing: 0.05em
+}
+.navbar {
+background-color: black;
+position: fixed;
+width: 100%;
+top: 0;
+padding 25px;
+}
+.navbar ul li a {
+color: #5AD4C2
+}
+.navbar a:hover {
+color: #ff0;
+text-decoration: none;
+-webkit-transition: color 600ms;
+}
+.navbar {
+z-index: 1;
+}*/
+.projectName a {
+  color: white;
+}
+.carousel {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.anchor {
+  padding-top: 50px;
+}
+#work {
+  padding-top: 50px;
+}
